@@ -7,7 +7,9 @@ The login page use the Local and Session Storage, however this can be optimised 
 
 The website is still in development as a hobby project :) 
 
-Main Index / Homepage 
+Notice/NB: Website is in Norwegian.
+
+Homepage 
 
 <img width="1436" alt="Website_Readme_Preview" src="https://github.com/user-attachments/assets/c0d35319-ba59-4e57-90f1-59dd90f9d33f">
 
@@ -20,5 +22,5 @@ Permission is granted for personal use only and can be merged and used if credit
 The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND
-#############################################################################################
+####################################################################################
 
