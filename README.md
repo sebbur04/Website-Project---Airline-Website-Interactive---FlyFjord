@@ -7,6 +7,9 @@ The login page use the Local and Session Storage, however this can be optimised 
 
 The website is still in development as a hobby project :) 
 
+<img width="1436" alt="Website_Readme_Preview" src="https://github.com/user-attachments/assets/c0d35319-ba59-4e57-90f1-59dd90f9d33f">
+
+
 ############################################################################################
 Copyright (c) 2024 <Sebbur04 - Sebastian E Burmo>
 
