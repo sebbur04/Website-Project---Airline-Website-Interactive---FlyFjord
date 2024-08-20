@@ -1,0 +1,274 @@
+/*  VIKTIG DETTE ER KODE FOR HJEMMESIDEN PGA AV BAC IMG, STYLE.CSS ER DEN UNIVERSIELLE FOR NETTSIDE MALEN
+------------------------------------*/
+/*  Hovedelementene 
+------------------------------------*/
+html {
+    box-sizing: border-box;
+  }
+
+  body {
+    font-family: 'DM Sans', sans-serif;
+    background-image: url(https://images01.nicepage.com/d4/ba/d4ba5365cb77575ee1113cb97f497e17.jpeg);
+    color: #3b4555;
+    margin: 0px;
+  }
+  
+  .title {
+    color: #0c1d37;
+  }
+  
+  a {
+    color: #0c1d37;
+  }
+  
+  a:hover {
+    color: #ff6501;
+  }
+  
+  /* Layout: på container 
+  ------------------------------------*/
+  .container {
+    width: 100%;
+    max-width: 1140px;
+    padding: 0px 24px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  /* Layout: for Flexbox 
+  ------------------------------------*/
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0px -12px;
+  }
+  
+  .col {
+    flex: 1 0 0%;
+    padding: 0px 12px;
+  }
+  
+  
+  
+  /* Components: knappene - button / radius for avrunding av knappene 
+  ------------------------------------*/
+  .btn {
+    display: inline-block;
+    padding: 18px 40px;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.15;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50px;
+  
+  }
+
+  .btn-primary {
+    background-color: #0c1d37;
+    color: #fff;
+  }
+  
+  .btn-primary:hover {
+    background-color: #ff6501;
+    color: #fff;
+  }
+  
+  /* Components: CSS for navbar
+  ------------------------------------*/
+  .navbar-wrapper {
+    height: 74px;
+  }
+  
+  .navbar {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    padding: 16px 0px;
+    text-align: center;
+    box-shadow: 0 15px 50px -10px rgb(100 44 0 / 7%);
+  }
+  
+  .navbar-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto;
+    gap: 10px;
+    align-items: center;
+    max-width: 1140px;
+    padding: 0px 24px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .navbar-brand {
+    justify-self: start;
+    padding: 5px 0px;
+    font-size: 24px;
+    font-weight: 600;
+    color: #0c1d37;
+    text-decoration: none;
+  }
+  
+  .navbar-nav {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .nav-item {
+    display: inline-block;
+  }
+  
+  .nav-link {
+    display: inline-block;
+    padding: 12px 15px;
+    color: #0c1d36;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.15;
+    text-decoration: none;
+  }
+  
+  .nav-link:hover {
+    background-color:  hsl(27deg 69% 94%);
+    border-radius: 50px;
+  }
+  
+  /* Components: Mediaqueries for nettsiden og navbar / Mobil og PC Visning
+  ------------------------------------*/
+  @media (max-width: 991px) {
+    .navbar-nav {
+      display: none;
+      order: 3;
+      grid-column: 1 / span 3;
+    }
+  
+    .nav-item {
+      display: block;
+    }
+  
+    .nav-link {
+      display: block;
+    }
+  }
+  
+  .navbar-nav.show {
+    display: inline-block;
+  }
+  
+  .navbar-right {
+    justify-self: end;
+  }
+  
+  @media (max-width: 991px) {
+    .navbar-right {
+      order: 2;
+      grid-column: 2 / span 2;
+    }  
+  }
+  
+  .navbar-button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 1.15;
+    text-decoration: none;
+    border: 2px solid #0c1d37;
+    border-radius: 50px;
+  }
+  
+  .navbar-button:hover {
+    color: white;
+    background-color: #0c1d37;
+  }
+  
+  .navbar-toggle {
+    display: none;
+  }
+  
+  @media (max-width: 991px) {
+    .navbar-toggle {
+      display: inline-block;
+      vertical-align: middle;
+      padding: 8px;
+      margin-left: 5px;
+      cursor: pointer;
+      border-radius: 50%;
+      border: 2px solid transparent;
+      background: transparent;
+    }
+    
+    .navbar-toggle svg {
+      display: block;
+      margin: 0 auto;
+      text-align: center;
+    }
+  
+    .navbar-toggle.show {
+      background: #ff6501;
+      color: white;
+    }
+  }
+  
+  /* Components: (Styrer hoved container designet (Main - Midten) - Section-hero for SEO Optimalisering Kilde/Og noe bruk fra: https://superuser.com/questions/912654/how-to-remove-folders-from-visual-studio-code
+  ------------------------------------*/
+  .section-hero {
+    padding: 125px 0px;
+    text-align: center;
+  }
+  
+  .hero-title {
+    margin-top: 0px;
+    margin-bottom: 32px;
+    font-size: 60px;
+    font-weight: 600;
+    line-height: 1.2;
+    letter-spacing: -1px;
+    color: #0c1d37;
+  }
+  
+  .hero-text {
+    margin-top: 0px;
+    margin-bottom: 32px;
+    font-size: 18px;
+    line-height: 1.7;
+    color: #3b4555;
+  }
+  
+  /* Components: Footer CSS Kode
+  ------------------------------------*/
+  .section-footer {
+    padding: 30px 0px 20px;
+  }
+  
+  .footer-text {
+    margin: 0px;
+  }
+  
+
+  /* Utility: Flexbox
+  ------------------------------------*/
+  .d-flex {               /*Direct Child for flexbox*/
+    display: flex;
+  }
+  
+  .justify-content-start {
+    justify-content: flex-start;
+  }
+  
+  .justify-content-end {
+    justify-content: flex-end;
+  }
+  
+  /* Utility: Avstand / Spacing på Siden
+  ------------------------------------*/
+  .ml-auto {
+    margin-left: auto;
+  }
+  
+  .mr-auto {
+    margin-right: auto;
+  }

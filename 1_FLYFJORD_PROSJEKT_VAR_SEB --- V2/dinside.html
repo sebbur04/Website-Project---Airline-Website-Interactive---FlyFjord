@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="no">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap" rel="stylesheet">
+    <title>Min Side | Fly Fjord</title>
+    <link rel="icon" type="image/x-icon" href="img/Favikonrett.png">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+
+    <header class="navbar-wrapper">
+      <nav class="navbar" id="navbar">
+        <div class="navbar-container">
+            <a class="navbar-brand" href="homeindex.html">Fly Fjord</a>
+            <ul class="navbar-nav" id="navbar-nav">
+              <div class="nav-menu">
+                <li class="nav-item"><a class="nav-link" href="homeindex.html">Hjem</a></li>
+                <li class="nav-item"><a class="nav-link" href="bestilling.html">Bestill Reise</a></li>
+                <li class="nav-item"><a class="nav-link" href="omoss.html">Om oss</a></li>
+                <li class="nav-item"><a class="nav-link" href="temsconditions.html">Brukervilkår</a></li>
+                <li class="nav-item"><a class="nav-link" href="nybruker.html">Opprett Bruker</a></li>
+              </div>
+            </ul>
+            <div class="navbar-right">
+              <a class="navbar-button" href="homeindex.html">Logg Ut</a>
+              <button class="navbar-toggle" href="#" id="navbar-toggle">
+              <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+              <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+            </button>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <section class="section-hero">
+        <div class="container">
+          <div class="row">
+            <div class="col">
+              <h1 class="hero-title">Velkommen<br><span id="bruker"></span>!
+              <br>
+              <h2>Dine Reiser:</h2>
+              <h3>Du skal snart til <span id="Ankom"></span>! </h3>
+              <br>
+              <h3>Ennå ikke bestilt reise? Bestill en idag!</h3>
+              <br>
+              <a class="btn btn-primary" href="bestilling.html">Bestill reise</a>
+              <br>
+              <br>
+              <h2>Profiladministrasjon:</h2>
+              <p>Vi i Flyfjord ønsker å gjøre alt sømløst, men om du ønsker så kan du slette din bruker</p> 
+              <p>(NB: Du mister da bestilte reiser, denne handlingen kan ikke angres)</p>
+              <p>Trykk knappen for å slette brukeren:</p>
+             <br>
+            <button class="css-172" onclick="deleteItems()"><div onclick="alert1()"</div>SLETT</button>
+            </div>
+          </div>
+        </div>
+      </section>
+   
+
+      <footer class="section-footer">
+        <div class="container">
+          <div class="row">
+            <div class="col">
+              <p class="footer-text">© 2022 Fly Fjord</p>
+              <a href="sitemap.html">Sitemap</a>
+          </div>
+        </div>
+      </footer>
+  
+  
+    <script src="js/script.js"></script>
+    </body>
+  </html>
