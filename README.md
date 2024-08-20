@@ -7,10 +7,12 @@ The login page use the Local and Session Storage, however this can be optimised 
 
 The website is still in development as a hobby project :) 
 
+Main Index / Homepage 
+
 <img width="1436" alt="Website_Readme_Preview" src="https://github.com/user-attachments/assets/c0d35319-ba59-4e57-90f1-59dd90f9d33f">
 
 
-############################################################################################
+
 Copyright (c) 2024 <Sebbur04 - Sebastian E Burmo>
 
 Permission is granted for personal use only and can be merged and used if credits are given to the author
