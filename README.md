@@ -11,9 +11,11 @@ Ongoing Development: This website is an ongoing hobby project and is still under
 # Important Notes
 Language: The website is developed in Norwegian.
 
-# Homepage 
+# Project Screenshots  
 
 <img width="1436" alt="Website_Readme_Preview" src="https://github.com/user-attachments/assets/c0d35319-ba59-4e57-90f1-59dd90f9d33f">
+<img width="1436" alt="Screenshot 2024-08-21 at 14 16 22" src="https://github.com/user-attachments/assets/33836fbe-8c39-48cc-b36a-e84398b3783b">
+<img width="1436" alt="Screenshot 2024-08-21 at 14 16 53" src="https://github.com/user-attachments/assets/79735fa2-7278-462e-937b-e013d3f1f603">
 
 
 # Copyright
