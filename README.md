@@ -1,15 +1,17 @@
-# Website-Project---Airline-Website-Interactive---FlyFjord
-A website project used to improve today's airline websites and make them more interactive. Used as a project to learn and explore HTML, CSS and Javascript and enhance experience within different programming and marking languages.
+# Airline Website Project - FlyFjord
+# Overview
+This project aims to enhance the interactivity and user experience of modern airline websites. It serves as a practical exercise in learning and exploring HTML, CSS, and JavaScript, while also gaining experience with various programming and markup languages.
 
-Photos used in project is Open Source and the company is fictional
+# Features
+Interactive Design: Focused on creating a more engaging user interface for airline websites.
+Login System: Utilizes Local and Session Storage for user authentication. The system is currently designed for local development but can be upgraded to integrate with an SQL database.
+Open Source Assets: All photos used in the project are open source, and the company represented is entirely fictional.
+Ongoing Development: This website is an ongoing hobby project and is still under active development.
 
-The login page use the Local and Session Storage, however this can be optimised to be connected to a SQL database.
+# Important Notes
+Language: The website is developed in Norwegian.
 
-The website is still in development as a hobby project :) 
-
-Notice/NB: Website is in Norwegian.
-
-Homepage 
+# Homepage [Link to Homepage]
 
 <img width="1436" alt="Website_Readme_Preview" src="https://github.com/user-attachments/assets/c0d35319-ba59-4e57-90f1-59dd90f9d33f">
 
