@@ -17,6 +17,10 @@ Language: The website is developed in Norwegian.
 <img width="1436" alt="Screenshot 2024-08-21 at 14 16 22" src="https://github.com/user-attachments/assets/33836fbe-8c39-48cc-b36a-e84398b3783b">
 <img width="1436" alt="Screenshot 2024-08-21 at 14 16 53" src="https://github.com/user-attachments/assets/79735fa2-7278-462e-937b-e013d3f1f603">
 
+# Webpage Link
+The website is hosted on a server where you can view and explore the repository live without GIT cloning on your own enviroment.
+
+LINK: 
 
 # Copyright
 Copyright (c) 2024 <Sebbur04 - Sebastian E Burmo>
