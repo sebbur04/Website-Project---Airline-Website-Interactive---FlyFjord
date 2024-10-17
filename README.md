@@ -3,9 +3,10 @@
 This project aims to enhance the interactivity and user experience of modern airline websites. It serves as a practical exercise in learning and exploring HTML, CSS, and JavaScript, while also gaining experience with various programming and markup languages.
 
 # Webpage Link
-The website is hosted on a server where you can view and explore the repository live without GIT cloning on your own enviroment.
 
-Link: https://folk.ntnu.no/sebaseb/Website_Project_Sebastian_Burmo/1_FLYFJORD_PROSJEKT_VAR_SEB%20---%20V2/homeindex.html
+> [!TIP]
+> The website is hosted on a server where you can view and explore the repository live without GIT cloning on your own enviroment.
+> https://folk.ntnu.no/sebaseb/Website_Project_Sebastian_Burmo/1_FLYFJORD_PROSJEKT_VAR_SEB%20---%20V2/homeindex.html
 
 
 # Features
@@ -15,7 +16,9 @@ Open Source Assets: All photos used in the project are open source, and the comp
 Ongoing Development: This website is an ongoing hobby project and is still under active development.
 
 # Important Notes
-Language: The website is developed in Norwegian.
+> [!IMPORTANT]  
+> Language: The website is developed in Norwegian.
+
 
 # Project Screenshots  
 
